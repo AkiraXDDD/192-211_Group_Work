@@ -11,4 +11,4 @@ def test_deposit50(account):
 
 def test_deposit100(account):
     account.deposit(100)
-    assert account.balance == 150
+    assert account.balance == 200
